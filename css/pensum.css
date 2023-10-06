@@ -1,0 +1,27 @@
+header, footer, #espacio-imagen, .texto-trimestre {
+    text-align: center;
+}
+
+#pensum {
+    margin: 0 auto;
+}
+
+.texto-trimestre {
+    align-items: center;
+    border: 0.25vw solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-trimestre, .boton-materia {
+    border-radius: 15%;
+    font-size: 1.25vw;
+    height: 10vw;
+    width: 11vw;
+}
+
+#imagen-materia {
+    height: 75%;
+    width: 75%;
+    margin: 0.5vw;
+}
