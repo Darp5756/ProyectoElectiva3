@@ -231,7 +231,7 @@ const datos_materias = {
         "imagen": "",
         "autor": ""
     },
-    "Electiva III": {
+    "Electiva III - Entornos Virtuales de Aprendizaje": {
         "imagen": "",
         "autor": ""
     },
