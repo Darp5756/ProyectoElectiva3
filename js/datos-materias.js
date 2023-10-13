@@ -12,8 +12,8 @@ const datos_materias = {
         "autor": ""
     },
     "Computación Básica": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "computacion_basica.jpg",
+        "autor": "Luis Medina"
     },
     "Lógica": {
         "imagen": "",
@@ -108,8 +108,8 @@ const datos_materias = {
         "autor": ""
     },
     "Base de Datos": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "base_de_datos.jpeg",
+        "autor": "Luis Medina"
     },
     "Creatividad": {
         "imagen": "",
@@ -140,8 +140,8 @@ const datos_materias = {
         "autor": "Luis Medina"
     },
     "Sistemas de Control": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "sistemas_de_control.jpg",
+        "autor": "Juan Moreno"
     },
     "Investigación de Operaciones II": {
         "imagen": "",
@@ -216,12 +216,12 @@ const datos_materias = {
         "autor": ""
     },
     "Electiva II - Técnicas y Desarrollo Web": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "electiva_ii_tecnicas_y_desarrollo_web.jpg",
+        "autor": "Aníbal Morillo"
     },
     "Seguridad Informática": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "seguridad_informatica.png",
+        "autor": "Luis Medina"
     },
     "Sistemas Expertos": {
         "imagen": "sistemas_expertos.jpg",
