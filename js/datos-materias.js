@@ -20,8 +20,8 @@ const datos_materias = {
         "autor": ""
     },
     "Formación Deportiva": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "formacion_deportiva.jpg",
+        "autor": "Andrés Celis"
     },
     "Cálculo Diferencial": {
         "imagen": "",
@@ -60,8 +60,8 @@ const datos_materias = {
         "autor": ""
     },
     "Inglés Técnico": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "ingles_tecnico.jpg",
+        "autor": "Luis Medina"
     },
     "Estadística Descriptiva y Probabilidad": {
         "imagen": "",
@@ -124,20 +124,20 @@ const datos_materias = {
         "autor": "Diego Ribon"
     },
     "Programación Orientada a Objeto": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "programacion_orientada_a_objetos.jpg",
+        "autor": "Andrés Celis"
     },
     "Laboratorio de Electricidad y Magnetismo": {
         "imagen": "",
         "autor": ""
     },
     "Laboratorio de Base de Datos": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "laboratorio_de_base_de_datos.jpg",
+        "autor": "Juan Moreno"
     },
     "Análisis de Sistemas de Información": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "analisis_de_sistemas_de_informacion.jpg",
+        "autor": "Luis Medina"
     },
     "Sistemas de Control": {
         "imagen": "",
@@ -156,8 +156,8 @@ const datos_materias = {
         "autor": ""
     },
     "Electiva I - Valores y Cultura Ciudadana": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "electiva_i_valores_y_cultura_ciudadana.jpeg",
+        "autor": "Andrés Celis"
     },
     "Diseño de Sistemas de Información": {
         "imagen": "",
@@ -180,8 +180,8 @@ const datos_materias = {
         "autor": "Diego Ribon"
     },
     "Arquitectura del Computador": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "arquitectura_del_computador.jpg",
+        "autor": "Juan Moreno"
     },
     "Innovación": {
         "imagen": "innovacion.png",
@@ -192,8 +192,8 @@ const datos_materias = {
         "autor": ""
     },
     "Orientación Profesional": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "orientacion_profesional.jpg",
+        "autor": "Luis Medina"
     },
     "Auditoría de Sistemas": {
         "imagen": "",
@@ -204,8 +204,8 @@ const datos_materias = {
         "autor": ""
     },
     "Sistemas Operativos": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "sistemas_operativos.jpg",
+        "autor": "Juan Moreno"
     },
     "Emprendimiento": {
         "imagen": "",
@@ -224,12 +224,12 @@ const datos_materias = {
         "autor": ""
     },
     "Sistemas Expertos": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "sistemas_expertos.jpg",
+        "autor": "Luis Medina"
     },
     "Gerencia de Sistemas": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "gerencia_de_sistemas.jpg",
+        "autor": "Luis Medina"
     },
     "Electiva III - Entornos Virtuales de Aprendizaje": {
         "imagen": "",
