@@ -208,8 +208,8 @@ const datos_materias = {
         "autor": "Juan Moreno"
     },
     "Emprendimiento": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "emprendimiento.png",
+        "autor": "Alejandro Espina"
     },
     "Ingeniería del Software": {
         "imagen": "",
