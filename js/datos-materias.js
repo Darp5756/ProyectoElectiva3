@@ -52,8 +52,8 @@ const datos_materias = {
         "autor": ""
     },
     "Algoritmo, Estructura y Programación": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "algoritmo_estructura_y_programacion.png",
+        "autor": "Diego Ribon"
     },
     "Mecánica": {
         "imagen": "",
@@ -88,8 +88,8 @@ const datos_materias = {
         "autor": ""
     },
     "Estadística Inferencial": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "estadistica_inferencial.png",
+        "autor": "Diego Ribon"
     },
     "Química Aplicada": {
         "imagen": "",
@@ -120,8 +120,8 @@ const datos_materias = {
         "autor": ""
     },
     "Investigación de Operaciones I": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "investigacion_de_operaciones_i.png",
+        "autor": "Diego Ribon"
     },
     "Programación Orientada a Objeto": {
         "imagen": "",
@@ -176,16 +176,16 @@ const datos_materias = {
         "autor": ""
     },
     "Aplicaciones Web": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "aplicaciones_web.png",
+        "autor": "Diego Ribon"
     },
     "Arquitectura del Computador": {
         "imagen": "",
         "autor": ""
     },
     "Innovación": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "innovacion.png",
+        "autor": "Diego Ribon"
     },
     "Implementación de Sistemas de Información": {
         "imagen": "",
