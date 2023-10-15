@@ -112,8 +112,8 @@ const datos_materias = {
         "autor": "Luis Medina"
     },
     "Creatividad": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "creatividad.jpg",
+        "autor": "Alejandro Espina"
     },
     "Orientación Personal": {
         "imagen": "",
@@ -128,8 +128,8 @@ const datos_materias = {
         "autor": "Andrés Celis"
     },
     "Laboratorio de Electricidad y Magnetismo": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "laboratorio_de_electricidad_y_magnetismo.jpg",
+        "autor": "Alejandro Espina"
     },
     "Laboratorio de Base de Datos": {
         "imagen": "laboratorio_de_base_de_datos.jpg",
@@ -168,12 +168,12 @@ const datos_materias = {
         "autor": ""
     },
     "Servicio Comunitario": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "servicio_comunitario.jpg",
+        "autor": "Alejandro Espina"
     },
     "Ingeniería Económica": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "ingenieria_economica.jpg",
+        "autor": "Alejandro Espina"
     },
     "Aplicaciones Web": {
         "imagen": "aplicaciones_web.png",
