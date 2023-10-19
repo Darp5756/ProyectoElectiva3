@@ -32,8 +32,8 @@ const datos_materias = {
         "autor": ""
     },
     "Geometría": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "geometria.jpg",
+        "autor": "Diego Ribon"
     },
     "Inglés Instrumental": {
         "imagen": "",
@@ -44,8 +44,8 @@ const datos_materias = {
         "autor": ""
     },
     "Educación Ambiental": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "educacion_ambiental.jpg",
+        "autor": "Diego Ribon"
     },
     "Cálculo Integral": {
         "imagen": "",
@@ -68,16 +68,16 @@ const datos_materias = {
         "autor": ""
     },
     "Actividades Recreacionales": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "actividades_recreacionales.jpg",
+        "autor": "Diego Ribon"
     },
     "Cálculo de Varias Variables": {
         "imagen": "",
         "autor": ""
     },
     "Estructuras Discretas": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "estructuras_discretas.jpg",
+        "autor": "Diego Ribon"
     },
     "Electricidad y Magnetismo": {
         "imagen": "",
@@ -144,16 +144,16 @@ const datos_materias = {
         "autor": "Juan Moreno"
     },
     "Investigación de Operaciones II": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "investigacion_de_operaciones_ii.jpg",
+        "autor": "Diego Ribon"
     },
     "Sistemas Digitales": {
         "imagen": "",
         "autor": ""
     },
     "Introducción a las Redes": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "introduccion_a_las_redes.jpg",
+        "autor": "Diego Ribon"
     },
     "Electiva I - Valores y Cultura Ciudadana": {
         "imagen": "electiva_i_valores_y_cultura_ciudadana.jpeg",
@@ -236,8 +236,8 @@ const datos_materias = {
         "autor": ""
     },
     "Formulación y Evaluación de Proyectos": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "formulacion_y_evaluacion_de_proyectos.png",
+        "autor": "Nixon Parra"
     },
     "Ética Aplicada y Política": {
         "imagen": "",
