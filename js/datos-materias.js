@@ -40,8 +40,8 @@ const datos_materias = {
         "autor": "Andrés Celiss"
     },
     "Metodología de Estudio": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "metodologia_de_estudio.jpg",
+        "autor": "Juan Moreno"
     },
     "Educación Ambiental": {
         "imagen": "educacion_ambiental.jpg",
@@ -56,8 +56,8 @@ const datos_materias = {
         "autor": "Diego Ribon"
     },
     "Mecánica": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "mecanica.jpg",
+        "autor": "Juan Moreno"
     },
     "Inglés Técnico": {
         "imagen": "ingles_tecnico.jpg",
