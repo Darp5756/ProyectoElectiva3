@@ -1,266 +1,268 @@
 const datos_materias = {
     "Matemática General": {
         "imagen": "matematica_general.jpg",
-        "autor": "Andrés Celiss"
+        "autor": "Andrés Celiss",
     },
     "Introducción a la Ingeniería": {
         "imagen": "introduccion_a_la_ingenieria.jpg",
-        "autor": "Andrés Celiss"
+        "autor": "Andrés Celiss",
     },
     "Lengua y Comunicación": {
         "imagen": "lengua_y_comunicacion.jpg",
-        "autor": "Andrés Celiss"
+        "autor": "Andrés Celiss",
     },
     "Computación Básica": {
         "imagen": "computacion_basica.jpg",
-        "autor": "Luis Medina"
+        "autor": "Luis Medina",
     },
     "Lógica": {
         "imagen": "logica.jpg",
-        "autor": "Andrés Celiss"
+        "autor": "Andrés Celiss",
     },
     "Formación Deportiva": {
         "imagen": "formacion_deportiva.jpg",
-        "autor": "Andrés Celiss"
+        "autor": "Andrés Celiss",
     },
     "Cálculo Diferencial": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Álgebra Lineal": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "algebra_lineal.jpg",
+        "autor": "Diego Ribon",
     },
     "Geometría": {
         "imagen": "geometria.jpg",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Inglés Instrumental": {
         "imagen": "ingles_instrumental.jpg",
-        "autor": "Andrés Celiss"
+        "autor": "Andrés Celiss",
     },
     "Metodología de Estudio": {
         "imagen": "metodologia_de_estudio.jpg",
-        "autor": "Juan Moreno"
+        "autor": "Juan Moreno",
     },
     "Educación Ambiental": {
         "imagen": "educacion_ambiental.jpg",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Cálculo Integral": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "calculo_integral.jpg",
+        "autor": "Nixon Parra",
     },
     "Algoritmo, Estructura y Programación": {
         "imagen": "algoritmo_estructura_y_programacion.png",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Mecánica": {
         "imagen": "mecanica.jpg",
-        "autor": "Juan Moreno"
+        "autor": "Juan Moreno",
     },
     "Inglés Técnico": {
         "imagen": "ingles_tecnico.jpg",
-        "autor": "Luis Medina"
+        "autor": "Luis Medina",
     },
     "Estadística Descriptiva y Probabilidad": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Actividades Recreacionales": {
         "imagen": "actividades_recreacionales.jpg",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Cálculo de Varias Variables": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Estructuras Discretas": {
         "imagen": "estructuras_discretas.jpg",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Electricidad y Magnetismo": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "electricidad_y_magnetismo.jpg",
+        "autor": "Diego Ribon",
     },
     "Redacción de Informes": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "redaccion_de_informes.jpg",
+        "autor": "Diego Ribon",
     },
     "Estadística Inferencial": {
         "imagen": "estadistica_inferencial.png",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Química Aplicada": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "quimica_aplicada.jpg",
+        "autor": "Diego Ribon",
     },
     "Ecuaciones Diferenciales": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Programación Estructurada": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Laboratorio de Mecánica": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Base de Datos": {
         "imagen": "base_de_datos.jpeg",
-        "autor": "Luis Medina"
+        "autor": "Luis Medina",
     },
     "Creatividad": {
         "imagen": "creatividad.jpg",
-        "autor": "Alejandro Espina"
+        "autor": "Alejandro Espina",
     },
     "Orientación Personal": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Investigación de Operaciones I": {
         "imagen": "investigacion_de_operaciones_i.png",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Programación Orientada a Objeto": {
         "imagen": "programacion_orientada_a_objetos.jpg",
-        "autor": "Andrés Celiss"
+        "autor": "Andrés Celiss",
     },
     "Laboratorio de Electricidad y Magnetismo": {
         "imagen": "laboratorio_de_electricidad_y_magnetismo.jpg",
-        "autor": "Alejandro Espina"
+        "autor": "Alejandro Espina",
     },
     "Laboratorio de Base de Datos": {
         "imagen": "laboratorio_de_base_de_datos.jpg",
-        "autor": "Juan Moreno"
+        "autor": "Juan Moreno",
     },
     "Análisis de Sistemas de Información": {
         "imagen": "analisis_de_sistemas_de_informacion.jpg",
-        "autor": "Luis Medina"
+        "autor": "Luis Medina",
     },
     "Sistemas de Control": {
         "imagen": "sistemas_de_control.jpg",
-        "autor": "Juan Moreno"
+        "autor": "Juan Moreno",
     },
     "Investigación de Operaciones II": {
         "imagen": "investigacion_de_operaciones_ii.jpg",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Sistemas Digitales": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "sistemas_digitales.jpg",
+        "autor": "Diego Ribon",
     },
     "Introducción a las Redes": {
         "imagen": "introduccion_a_las_redes.jpg",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Electiva I - Valores y Cultura Ciudadana": {
         "imagen": "electiva_i_valores_y_cultura_ciudadana.jpeg",
-        "autor": "Andrés Celiss"
+        "autor": "Andrés Celiss",
     },
     "Diseño de Sistemas de Información": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Prácticas Profesionales I": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "practicas_profesionales_i.jpg",
+        "autor": "Diego Ribon",
     },
     "Servicio Comunitario": {
         "imagen": "servicio_comunitario.jpg",
-        "autor": "Alejandro Espina"
+        "autor": "Alejandro Espina",
     },
     "Ingeniería Económica": {
         "imagen": "ingenieria_economica.jpg",
-        "autor": "Alejandro Espina"
+        "autor": "Alejandro Espina",
     },
     "Aplicaciones Web": {
         "imagen": "aplicaciones_web.png",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Arquitectura del Computador": {
         "imagen": "arquitectura_del_computador.jpg",
-        "autor": "Juan Moreno"
+        "autor": "Juan Moreno",
     },
     "Innovación": {
         "imagen": "innovacion.png",
-        "autor": "Diego Ribon"
+        "autor": "Diego Ribon",
     },
     "Implementación de Sistemas de Información": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "implementacion_de_sistemas_de_informacion.jpg",
+        "autor": "Diego Ribon",
     },
     "Orientación Profesional": {
         "imagen": "orientacion_profesional.jpg",
-        "autor": "Luis Medina"
+        "autor": "Luis Medina",
     },
     "Auditoría de Sistemas": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "auditoria_de_sistemas.jpg",
+        "autor": "Diego Ribon",
     },
     "Sistemas de Información Gerenciales": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Sistemas Operativos": {
         "imagen": "sistemas_operativos.jpg",
-        "autor": "Juan Moreno"
+        "autor": "Juan Moreno",
     },
     "Emprendimiento": {
         "imagen": "emprendimiento.png",
-        "autor": "Alejandro Espina"
+        "autor": "Alejandro Espina",
     },
     "Ingeniería del Software": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "ingenieria_del_software.jpg",
+        "autor": "Diego Ribon",
     },
     "Electiva II - Técnicas y Desarrollo Web": {
         "imagen": "electiva_ii_tecnicas_y_desarrollo_web.jpg",
-        "autor": "Aníbal Morillo"
+        "autor": "Aníbal Morillo",
     },
     "Seguridad Informática": {
         "imagen": "seguridad_informatica.png",
-        "autor": "Luis Medina"
+        "autor": "Luis Medina",
     },
     "Sistemas Expertos": {
         "imagen": "sistemas_expertos.jpg",
-        "autor": "Luis Medina"
+        "autor": "Luis Medina",
     },
     "Gerencia de Sistemas": {
         "imagen": "gerencia_de_sistemas.jpg",
-        "autor": "Luis Medina"
+        "autor": "Luis Medina",
     },
     "Electiva III - Entornos Virtuales de Aprendizaje": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Formulación y Evaluación de Proyectos": {
         "imagen": "formulacion_y_evaluacion_de_proyectos.png",
-        "autor": "Nixon Parra"
+        "autor": "Nixon Parra",
     },
+    /*
     "Ética Aplicada y Política": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Calidad de los Sistemas": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Ejecución y Control de Proyectos": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Prácticas Profesionales II": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Trabajo Especial de Titulación": {
         "imagen": "",
-        "autor": ""
+        "autor": "",
     },
     "Prácticas Profesionales III": {
         "imagen": "",
         "autor": ""
-    }
+    },
+    */
 };
