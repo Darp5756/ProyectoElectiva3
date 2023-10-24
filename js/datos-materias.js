@@ -24,8 +24,8 @@ const datos_materias = {
         "autor": "Andrés Celiss",
     },
     "Cálculo Diferencial": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "calculo_diferencial.jpg",
+        "autor": "Alejandro Espina",
     },
     "Álgebra Lineal": {
         "imagen": "algebra_lineal.jpg",
@@ -64,16 +64,16 @@ const datos_materias = {
         "autor": "Luis Medina",
     },
     "Estadística Descriptiva y Probabilidad": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "estadistica_descriptiva_y_probabilidad.jpg",
+        "autor": "Alejandro Espina",
     },
     "Actividades Recreacionales": {
         "imagen": "actividades_recreacionales.jpg",
         "autor": "Diego Ribon",
     },
     "Cálculo de Varias Variables": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "calculo_de_varias_variables.jpg",
+        "autor": "Alejandro Espina",
     },
     "Estructuras Discretas": {
         "imagen": "estructuras_discretas.jpg",
@@ -96,16 +96,16 @@ const datos_materias = {
         "autor": "Diego Ribon",
     },
     "Ecuaciones Diferenciales": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "ecuaciones_diferenciales.jpg",
+        "autor": "Alejandro Espina",
     },
     "Programación Estructurada": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "programacion_estructurada.jpg",
+        "autor": "Alejandro Espina",
     },
     "Laboratorio de Mecánica": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "laboratorio_de_mecanica.jpg",
+        "autor": "Alejandro Espina",
     },
     "Base de Datos": {
         "imagen": "base_de_datos.jpeg",
@@ -116,8 +116,8 @@ const datos_materias = {
         "autor": "Alejandro Espina",
     },
     "Orientación Personal": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "orientacion_personal.jpg",
+        "autor": "Alejandro Espina",
     },
     "Investigación de Operaciones I": {
         "imagen": "investigacion_de_operaciones_i.png",
@@ -160,8 +160,8 @@ const datos_materias = {
         "autor": "Andrés Celiss",
     },
     "Diseño de Sistemas de Información": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "diseno_de_sistemas_de_informacion.jpg",
+        "autor": "Alejandro Espina",
     },
     "Prácticas Profesionales I": {
         "imagen": "practicas_profesionales_i.jpg",
@@ -200,8 +200,8 @@ const datos_materias = {
         "autor": "Diego Ribon",
     },
     "Sistemas de Información Gerenciales": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "sistemas_de_informacion_gerenciales.jpg",
+        "autor": "Alejandro Espina",
     },
     "Sistemas Operativos": {
         "imagen": "sistemas_operativos.jpg",
@@ -232,8 +232,8 @@ const datos_materias = {
         "autor": "Luis Medina",
     },
     "Electiva III - Entornos Virtuales de Aprendizaje": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "electiva_iii_entornos_virtuales_de_aprendizaje.jpg",
+        "autor": "Alejandro Espina",
     },
     "Formulación y Evaluación de Proyectos": {
         "imagen": "formulacion_y_evaluacion_de_proyectos.png",
