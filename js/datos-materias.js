@@ -1,15 +1,15 @@
 const datos_materias = {
     "Matemática General": {
         "imagen": "matematica_general.jpg",
-        "autor": "Andrés Celiss",
+        "autor": "Andréss Celis",
     },
     "Introducción a la Ingeniería": {
         "imagen": "introduccion_a_la_ingenieria.jpg",
-        "autor": "Andrés Celiss",
+        "autor": "Andréss Celis",
     },
     "Lengua y Comunicación": {
         "imagen": "lengua_y_comunicacion.jpg",
-        "autor": "Andrés Celiss",
+        "autor": "Andréss Celis",
     },
     "Computación Básica": {
         "imagen": "computacion_basica.jpg",
@@ -17,11 +17,11 @@ const datos_materias = {
     },
     "Lógica": {
         "imagen": "logica.jpg",
-        "autor": "Andrés Celiss",
+        "autor": "Andréss Celis",
     },
     "Formación Deportiva": {
         "imagen": "formacion_deportiva.jpg",
-        "autor": "Andrés Celiss",
+        "autor": "Andréss Celis",
     },
     "Cálculo Diferencial": {
         "imagen": "calculo_diferencial.jpg",
@@ -37,7 +37,7 @@ const datos_materias = {
     },
     "Inglés Instrumental": {
         "imagen": "ingles_instrumental.jpg",
-        "autor": "Andrés Celiss",
+        "autor": "Andréss Celis",
     },
     "Metodología de Estudio": {
         "imagen": "metodologia_de_estudio.jpg",
@@ -125,7 +125,7 @@ const datos_materias = {
     },
     "Programación Orientada a Objeto": {
         "imagen": "programacion_orientada_a_objetos.jpg",
-        "autor": "Andrés Celiss",
+        "autor": "Andréss Celis",
     },
     "Laboratorio de Electricidad y Magnetismo": {
         "imagen": "laboratorio_de_electricidad_y_magnetismo.jpg",
@@ -157,7 +157,7 @@ const datos_materias = {
     },
     "Electiva I - Valores y Cultura Ciudadana": {
         "imagen": "electiva_i_valores_y_cultura_ciudadana.jpeg",
-        "autor": "Andrés Celiss",
+        "autor": "Andréss Celis",
     },
     "Diseño de Sistemas de Información": {
         "imagen": "diseno_de_sistemas_de_informacion.jpg",
