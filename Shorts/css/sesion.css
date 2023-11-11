@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+:root {
+    --primary: #15b49f;
+    --primary-light: #0494e2;
+    --secondary: #000000;
+    --background: #80e3d4b4;
+    --text: #161939;
+}
+
+body {
+    font-size: 20px;
+}
+
+/*Registrate con google o apple*/
+.sociales-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.sociales-row img {
+    width: 24px;
+    height: 24px;
+}
+
+.sociales-row>a {
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--text);
+    padding: 8px;
+    border: 1px solid var(--primary-light);
+    font-weight: 700;
+}
+
+.sociales-row>a:hover {
+    border: 1px solid var(--primary);
+}
+
+/*Lineas divisorias entre el registrate con redes sociales y el or email o password*/
+
+.divider {
+    display: flex;
+    flex-direction: row;
+    color: var(--secondary);
+    gap: 16px;
+    align-items: center;
+}
+
+.divider-line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--secondary);
+    opacity: .2;
+}
+
+
+/*Formulario*/
+.form-division {
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    margin: 0 auto;
+}
+
+
+.form-crear {
+    padding: 188px 32px 48px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.mi-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+    gap: 16px;
+    max-width: 460px;
+    width: 100%;
+    padding: 48px 32px;
+    height: fit-content;
+    box-shadow:
+        rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-welcome {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.form-welcome-row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.my-form__button {
+    background-color: var(--primary);
+    color: white;
+    white-space: nowrap;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    line-height: 50px;
+    outline: none;
+    font-size: 20px;
+    letter-spacing: .025em;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 800;
+    min-height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .15);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.my-form__actions {
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary);
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.my-form__actions a {
+    color: var(--secondary);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.my-form__actions a:hover {
+    text-decoration: underline;
+}
+
+.my-form__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-form__signup {
+    display: flex;
+    justify-content: center;
+}
+
+.my-form__signup a {
+    color: var(--primary);
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.my-form__signup a:hover {
+    text-decoration: underline;
+}
+
+/*Label e input*/
+.text-field input {
+    color: var(--secondary);
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid var(--secondary);
+    height: 50px;
+    letter-spacing: .03rem;
+    background-color: transparent;
+    outline: none;
+    transition: .25s;
+    border-radius: 8px;
+    text-indent: 20px;
+    margin-top: 4px;
+}
+
+.text-field label:focus-within {
+    color: var(--primary);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text-field {
+    position: relative;
+}
+
+.text-field svg {
+    position: absolute;
+    right: -2px;
+    bottom: -4px;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+}
+
+.text-field input:focus {
+    border: 1px solid var(--primary);
+}
+
+
+.text-field input:focus+svg {
+    stroke: var(--primary);
+}
+
+.text-field label {
+    color: var(--secondary);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .03rem;
+    z-index: 10;
+}
+
+@media (max-width: 768px) {
+    .form-division {
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+
+    .info-side {
+        flex-direction: column-reverse;
+        padding: 48px 48px 48px 32px;
+    }
+}
+
+
+/*Informacion de ujgh media*/
+.info-side {
+    height: 100vh;
+    padding: 148px 48px 48px 32px;
+    color: #401B3D;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    flex-grow: 1;
+    background-color: var(--background);
+}
+
+.info-side h2 {
+    margin-top: 48px;
+    color: var(--text);
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.info-side p {
+    font-size: 1.3rem;
+}
+
+.info-side img {
+    max-width: 860px;
+}
+
+.welcome-message {
+    max-width: 360px;
+}
+
+.logo {
+    height: 48px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/*Redes sociales*/
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+}
+
+.item a {
+  text-decoration: none;
+  width: 4.8rem;
+  height: 4.8rem;
+  background-color: var(--background);
+border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  border: 3px solid hsl(203, 92%, 97%);
+  overflow: hidden;
+}
+
+.item a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  z-index: 0;
+  scale: 1 0;
+  transform-origin: bottom;
+  transition: scale 0.5s ease;
+}
+
+.item:hover a::before {
+  scale: 1 1;
+}
+
+.icon {
+  font-size: 2rem;
+  color: hsl(203, 92%, 8%);
+  transition: 0.5s ease;
+  z-index: 2;
+}
+
+.item a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.item:nth-child(1) {
+  --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
+}
+.item:nth-child(2) {
+  --bg-color: #11ff00;
+}
+.item:nth-child(3) {
+  --bg-color: #0000ff;
+}
+.item:nth-child(4) {
+  --bg-color: #000;
+}
