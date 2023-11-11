@@ -8,8 +8,8 @@ $(document).ready(function () {
 
         //Cambiar datos del motal
         $('#titulo-materia').text(materia);
-        $('#imagen-materia').attr('src', 'img/' + (imagen || 'sin_imagen.png'));
-        $('#imagen-de').text('De: ' + (autor || 'Nadie todavía'));
+        $('#imagen-materia').attr('src', 'img/' + imagen);
+        $('#imagen-de').text('De: ' + autor);
 
     });
 
