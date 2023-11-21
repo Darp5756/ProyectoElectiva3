@@ -22,7 +22,7 @@
         <div class="form-crear">
             <form class="mi-form">
                 <div class="login-welcome-row">
-                    <h1>Crea tu cuenta &#x1F44F;</h1>
+                    <h1>Inicio de sesion &#x1F44F;</h1>
                 </div>
                 <div class="sociales-row">
                     <a href="#" title="Use Google">
