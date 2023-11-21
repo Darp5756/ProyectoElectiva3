@@ -11,7 +11,7 @@ class LoginController extends Controller
 {
     public function Vista_Login ()
     {
-        return view('sesion.blade.php');
+        return view('sesion');
     }
 
     public function Login(Request $request)
