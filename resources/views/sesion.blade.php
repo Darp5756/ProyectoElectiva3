@@ -79,7 +79,7 @@
                 <h2>UJGH Media 👋</h2>
                 <p>
                     Bienvenido a nuestra plataforma de videos educativos. Luego de registrarte, encontrarás una amplia gama de videos cortos
-                    pero con un enfoque educativo en temas como programación,robótica e inteligencia artificial.
+                    pero con un enfoque educativo en temas como robótica e inteligencia artificial.
                   
                 </p>
                 <br>
