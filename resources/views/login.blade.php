@@ -7,6 +7,8 @@
     <title>Registro</title>
     <link rel="preload" href="{{ asset('css/sesion.css') }}" as="style">
     <link rel="stylesheet" href="{{ asset('css/sesion.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+
 </head>
 <body>
 <section>
