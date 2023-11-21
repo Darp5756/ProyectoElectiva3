@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="preload" href="../css/sesion.css" as="style">
-    <link rel="stylesheet" href="../css/sesion.css">
+    <link rel="preload" href="{{ asset('css/sesion.css') }}" as="style">
+    <link rel="stylesheet" href="{{ asset('css/sesion.css') }}">
 </head>
-
 <body>
     <div class="form-division"> <!--Clase de la division del formulario-->
         <div class="form-crear">
@@ -19,11 +17,11 @@
                 </div>
                 <div class="sociales-row">
                     <a href="#" title="Use Google">
-                        <img src="../img/logoG.jpg" alt="Google">
+                        <img src="{{ asset('img/logoG.jpg') }}" alt="Google">
                         Registrate con Google
                     </a>
                     <a href="#" title="Use Apple">
-                        <img src="../img/logoA.jpg" alt="Apple">
+                        <img src="{{ asset('img/logoA.jpg') }}" alt="Apple">
                         Registrate con Apple
                     </a>
                 </div>
