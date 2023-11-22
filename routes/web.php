@@ -18,10 +18,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Registro
+Route::get('/vista/registro', [LoginController::class, 'Vista_registro'])->name('vista.registro');
+Route::post('/registro/usuario', [LoginController::class, 'Registro'])->name('registro.guardar');
+
 //Login
-Route::get('/login/login', [LoginController::class, 'Vista_Login'])->name('login.vista.login');
-Route::post('/login/login', [LoginController::class, 'Login'])->name('login.login');
-Route::get('/login/registro', [LoginController::class, 'Vista_registro'])->name('login.vista.registro');
-Route::post('/login/registro', [LoginController::class, 'Registro'])->name('login.registro');
-Route::get('/login/inicio', [LoginController::class, 'Vista_Inicio'])->name('login.vista.inicio');
+Route::get('/vista/login', [LoginController::class, 'Vista_Login'])->name('vista.login');
+Route::post('/login/ingresar', [LoginController::class, 'Login'])->name('login.ingresar');
+
+//Inicio
+Route::get('/login/inicio', [LoginController::class, 'Vista_Inicio'])->name('vista.inicio');
 Route::get('/login/logout', [LoginController::class, 'Logout'])->name('login.logout');

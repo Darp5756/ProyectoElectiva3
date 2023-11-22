@@ -9,9 +9,20 @@ use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
-    public function Vista_Login ()
+    public function Vista_Registro ()
     {
         return view('sesion');
+    }
+
+    public function Registro (Request $request)
+    {
+        Usuario::create($request->all());
+        return redirect()->route('vista.login')->withSuccess('Usuario registrado exitosamente');
+    }
+
+    public function Vista_Login ()
+    {
+        return view('login');
     }
 
     public function Login(Request $request)
@@ -31,18 +42,7 @@ class LoginController extends Controller
         }
 
         $request->session()->put('id_usuario', $usuario->id_usuario);
-        return redirect()->route('login.vista.inicio')->withSuccess('Bienvenido');
-    }
-
-    public function Vista_Registro ()
-    {
-        return view('');
-    }
-
-    public function Registro (Request $request)
-    {
-        Usuario::create($request->all());
-        return redirect()->route('login.vista.login')->withSuccess('Usuario registrado exitosamente');
+        return redirect()->route('vista.inicio')->withSuccess('Bienvenido');
     }
 
     public function Vista_Inicio ()
@@ -54,6 +54,6 @@ class LoginController extends Controller
     {
         Auth::logout();
         $request->session()->invalidate();
-        return redirect()->route('login.login')->withSuccess('Sesión finalizada exitosamente');
+        return redirect()->route('vista.login')->withSuccess('Sesión finalizada exitosamente');
     }
 }
