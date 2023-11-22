@@ -47,7 +47,7 @@ class LoginController extends Controller
 
     public function Vista_Inicio ()
     {
-        return view('');
+        return view('short');
     }
 
     public function Logout (Request $request)

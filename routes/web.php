@@ -27,5 +27,5 @@ Route::get('/vista/login', [LoginController::class, 'Vista_Login'])->name('vista
 Route::post('/login/ingresar', [LoginController::class, 'Login'])->name('login.ingresar');
 
 //Inicio
-Route::get('/login/inicio', [LoginController::class, 'Vista_Inicio'])->name('vista.inicio');
+Route::get('/inicio', [LoginController::class, 'Vista_Inicio'])->name('vista.inicio');
 Route::get('/login/logout', [LoginController::class, 'Logout'])->name('login.logout');
