@@ -61,7 +61,7 @@
         <a href="">
           <img src="" alt="-logo">
         </a>
-        <h1 >UJGH Media </h1>
+        <h1 class="titulo-nav">YetDi </h1>
       </nav>
  <!-- Slider   -->
      
@@ -124,7 +124,7 @@
             <div class="right">
                 <div>1
                     <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/prueba.mp4" type="video/mp4">
+                      <source src="{{asset('video/prueba.mp4')}}" type="video/mp4">
                     </video>
                   </div>
 
@@ -156,9 +156,9 @@
         </div>
 
     <!-- Llamado a js -->
-    <script src="../js/slider.js" defer></script>
-    <script  src="../js/menu.js" defer ></script>
-    <script  src="../videopause.js"></script>
+    <script src="{{asset('js/slider.js')}}"></script>
+    <script src="{{asset('js/menu.js')}}"></script>
+    <script src="{{asset('js/videopause.js')}}"></script>
 
   </body>
 </html>
