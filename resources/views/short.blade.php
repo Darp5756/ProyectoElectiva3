@@ -36,7 +36,11 @@
         </div>
         <div class="menu-item">
           <img src="../svg/shorts.svg">
-          <span>Shorts</span>
+          <span>Inteligencia Artificial</span>
+        </div>
+        <div class="menu-item">
+          <img src="../svg/shorts.svg">
+          <span>Robotica</span>
         </div>
         <div class="menu-item">
           <img src="../svg/curso.svg">
@@ -78,7 +82,7 @@
           <div class="wrapper">
             <div class="left">
               <div>
-                <h2>Ingenieria en sistemas1</h2>
+                <h2>Ingenieria en sistemas</h2>
                 <p>
                     La ingeniería en sistemas se enfoca en el diseño, desarrollo, implementación y mantenimiento de sistemas complejos, incluyendo hardware, software y servicios. 
                     Los ingenieros en sistemas se desempeñan en diversas industrias como tecnología, salud, biología, economía, comunicaciones y más. Algunas posiciones comunes son director de tecnología de la información, desarrollador de software, administrador de proyectos y arquitecto de sistemas.
@@ -86,7 +90,7 @@
               </div>
     
               <div>
-                <h2>Inteligencia artificial2</h2>
+                <h2>Inteligencia artificial</h2>
                 <p>
                   Es un campo de estudio y desarrollo de tecnologías que buscan crear sistemas y programas capaces de realizar tareas que normalmente requieren de la inteligencia humana. Estos sistemas pueden aprender, razonar, reconocer patrones y tomar decisiones basadas en datos.
                   <br><br>En el campo de la ingeniería en sistemas, la IA tiene diversas aplicaciones y 
@@ -97,7 +101,7 @@
               </div>
   
               <div>
-                <h2>Robotica3</h2>
+                <h2>Robotica</h2>
                 <p>
                   Es un campo que combina la ingeniería y la tecnología para diseñar, desarrollar y 
                   utilizar robots en diversos entornos y aplicaciones. Los robots son máquinas programables capaces de realizar 
@@ -109,7 +113,7 @@
               </div>
     
               <div>
-                <h2>Programacion4</h2>
+                <h2>Programacion</h2>
                 <p>
                   La programación es el proceso de crear un conjunto de instrucciones ordenadas que le indican a una computadora cómo 
                   realizar una tarea específica. En el campo de la ingeniería de sistemas, 
@@ -122,25 +126,19 @@
             </div>
             <!--Videos parte derecha-->
             <div class="right">
-                <div>1
+                <div>
                     <video class="right miVideo" controls autoplay muted>
                       <source src="{{asset('video/prueba.mp4')}}" type="video/mp4">
                     </video>
                   </div>
 
-                  <div>2
+                  <div>
                     <video class="right miVideo" controls autoplay muted>
                       <source src="../video/robotica.mp4" type="video/mp4">
                     </video>
                   </div>
 
-                  <div>3
-                    <video class="right miVideo" controls autoplay muted>
-                      <source src="" type="video/mp4">
-                    </video>
-                  </div>
-
-                  <div>4
+                  <div>
                     <video class="right miVideo" controls autoplay muted>
                       <source src="../video/opening.mp4" type="video/mp4">
                     </video>
@@ -151,6 +149,8 @@
                       <source src="" type="video/mp4">
                     </video>
                   </div>
+
+                  
             </div>
           </div>
         </div>
