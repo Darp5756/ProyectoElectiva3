@@ -76,7 +76,7 @@
                 </button>
                 <div class="my-form__actions">
                     <div class="my-form__signup">
-                        <a href="#" title="Login">
+                        <a href="{{ route('vista.registro') }}" title="Registrarse">
                             Registrarse
                         </a>
                     </div>
