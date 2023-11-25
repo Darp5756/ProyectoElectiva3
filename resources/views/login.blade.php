@@ -16,8 +16,8 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="{{ asset('img/logoG.jpg') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-      UJGH Media
-    </a>
+    
+    </a> <span>YetDi </span>
   </div>
 </nav>
     <div class="form-division"> <!--Clase de la division del formulario-->
@@ -72,12 +72,12 @@
                 </div>
                 
                 <button class="my-form__button" type="submit">
-                    Registrarse
+                    Login
                 </button>
                 <div class="my-form__actions">
                     <div class="my-form__signup">
                         <a href="#" title="Login">
-                            Login
+                            Registrarse
                         </a>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
         <div class="info-side">
             <img src="../img/ujgh.jpg" alt="Mock" class="mockup" />
             <div class="welcome-message">
-                <h2>UJGH Media 👋</h2>
+            <h2> YetDi 👋</h2>
                 <p>
                     Bienvenido a nuestra plataforma de videos educativos. Luego de registrarte, encontrarás una amplia gama de videos cortos
                     pero con un enfoque educativo en temas como robótica e inteligencia artificial.
@@ -116,6 +116,8 @@
         </div>
     </div>
 
+
+    <script src="{{asset('js/bs.js')}}"></script>
 </body>
 
 </html>

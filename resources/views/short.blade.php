@@ -14,7 +14,7 @@
   <body>
        <!-- Menu -->
     <aside class="sidebar">
-      <div class="menu-btn"> jkj
+      <div class="menu-btn"> 
         <img src="../svg/menu.svg" alt="menu">
       </div>
     </aside>

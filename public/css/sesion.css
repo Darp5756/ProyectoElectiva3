@@ -12,6 +12,11 @@ body {
     font-size: 20px;
 }
 
+.navbar{
+    background-color: #161939;
+    color: #fff;
+}
+
 /*Registrate con google o apple*/
 .sociales-row {
     display: flex;
@@ -73,7 +78,7 @@ body {
 
 
 .form-crear {
-    padding: 188px 32px 48px 32px;
+    padding: 80px 32px 50px 32px;
     display: flex;
     justify-content: center;
     align-items: start;
