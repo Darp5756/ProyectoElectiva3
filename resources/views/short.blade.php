@@ -130,7 +130,7 @@
 
                   <div>2
                     <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/pruebaa.mp4" type="video/mp4">
+                      <source src="../video/robotica.mp4" type="video/mp4">
                     </video>
                   </div>
 
