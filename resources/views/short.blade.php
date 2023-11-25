@@ -65,7 +65,7 @@
             <img src="../svg/perfil.svg">
             <span>Perfil</span>
           </div>
-          
+
           <div class="menu-item">
             <img src="../svg/cerrar.svg">
             <span>Cerrar sesion</span>
@@ -125,26 +125,10 @@
                 </p>
               </div>
     
-              <div>
-                <h2>Programacion</h2>
-                <p>
-                  La programación es el proceso de crear un conjunto de instrucciones ordenadas que le indican a una computadora cómo 
-                  realizar una tarea específica. En el campo de la ingeniería de sistemas, 
-                  los ingenieros utilizan la programación para desarrollar software, automatizar tareas y resolver problemas.
-                  Un ingeniero en sistemas utiliza sus conocimientos en programación para diseñar y desarrollar software, 
-                  ya sea para aplicaciones móviles, sistemas web, sistemas de control, inteligencia artificial, entre otros. 
-                  También se encarga de optimizar el rendimiento de los sistemas, solucionar problemas y mantener el software actualizado.
-                </p>
-              </div>
             </div>
             <!--Videos parte derecha-->
             <div class="right">
-                <div>
-                    <video class="right miVideo" controls autoplay muted>
-                      <source src="{{asset('video/programacion.mp4')}}" type="video/mp4">
-                    </video>
-                  </div>
-
+              
                   <div>
                     <video class="right miVideo" controls autoplay muted>
                       <source src="../video/robotica.mp4" type="video/mp4">

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robotica</title>
+    <title>Inteligencia artificial</title>
     <link rel="preload" href="{{ asset('css/short.css') }}" as="style">
     <link rel="stylesheet" href="{{ asset('css/short.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
@@ -95,14 +95,13 @@
           <div class="wrapper">
             <div class="left">
               <div>
-                <h2>Robotica</h2>
+              <h2>Inteligencia artificial</h2>
                 <p>
-                Es un campo que combina la ingeniería y la tecnología para diseñar, desarrollar y 
-                  utilizar robots en diversos entornos y aplicaciones. Los robots son máquinas programables capaces de realizar 
-                  tareas de manera autónoma o semiautónoma.<br><br>
-                  El papel de un ingeniero en sistemas en la robótica es fundamental para el desarrollo, implementación y 
-                  mantenimiento de sistemas robóticos. Los ingenieros en sistemas aplican sus conocimientos en áreas como la electrónica,
-                   la informática y la ingeniería de control para diseñar y programar robots que puedan realizar tareas de manera autónoma o semiautónoma.
+                  Es un campo de estudio y desarrollo de tecnologías que buscan crear sistemas y programas capaces de realizar tareas que normalmente requieren de la inteligencia humana. Estos sistemas pueden aprender, razonar, reconocer patrones y tomar decisiones basadas en datos.
+                  <br><br>En el campo de la ingeniería en sistemas, la IA tiene diversas aplicaciones y 
+                  beneficios. Algunos ejemplos incluyen: Ciberseguridad, Automatización de procesos, Sistemas expertos, 
+                  Internet de las cosas (IoT), Optimización de sistemas, Desarrollo web, etc.
+                  
                 </p>
               </div>
     
