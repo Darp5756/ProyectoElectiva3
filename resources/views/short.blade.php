@@ -53,7 +53,7 @@
         </div>
 
         <div class="menu-item">
-          <a class="enlance" href="">
+          <a class="enlance" href="{{ route('vista.cartas') }}">
             <img src="../svg/curso.svg">
             <span>Cursos</span>
           </a>
