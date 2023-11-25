@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CartasControlador extends Controller
 {
-    public function Vista_Registro ()
+    public function Vista_Cursos ()
     {
         return view('card');
     }

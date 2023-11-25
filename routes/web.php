@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\CartasControlador;
 use Illuminate\Support\Facades\Route;
 
 /*
