@@ -97,6 +97,17 @@ body {
   border-block: 1px solid #80e3d4b4;
 }
 
+
+.enlance{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
 .menu-item {
   font-size: 20px;
   display: flex;
@@ -113,6 +124,19 @@ body {
 .menu-item img {
   margin-right: 24px;
   font-weight: 700;
+}
+.enlance:hover {
+  background-color: #80e3d4;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+
+}
+.enlance img {
+  margin-right: 24px;
+  font-weight: 700;
+  text-decoration: none;
+
 }
 /*nav*/
 section {
