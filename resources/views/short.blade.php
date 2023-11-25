@@ -128,7 +128,7 @@
             <div class="right">
                 <div>
                     <video class="right miVideo" controls autoplay muted>
-                      <source src="{{asset('video/prueba.mp4')}}" type="video/mp4">
+                      <source src="{{asset('video/programacion.mp4')}}" type="video/mp4">
                     </video>
                   </div>
 
