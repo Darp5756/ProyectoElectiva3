@@ -29,26 +29,35 @@
         </a>
       </div>
  <!-- contenido del menu -->
+
       <div class="menu-group">
         <div class="menu-item">
-          <img src="../svg/inicio.svg">
-          <span>Inicio</span>
-        </div>
-        <div class="menu-item">
-          <img src="../svg/shorts.svg">
-          <span>Inteligencia Artificial</span>
-        </div>
-        <div class="menu-item">
-          <img src="../svg/shorts.svg">
-          <span>Robotica</span>
-        </div>
-        <div class="menu-item">
-  <a class="enlance" href="/resources/views/Card.blade.php">
-    <img src="../svg/curso.svg">
-    <span>Cursos</span>
-  </a>
-</div>
+          <a class="enlance" href="">
+            <img src="../svg/inicio.svg">
+            <span>Inicio</span>
+          </a>
+      </div>
 
+        <div class="menu-item">
+          <a class="enlance" href="">
+            <img src="../svg/shorts.svg">
+            <span>Inteligencia Artificial</span>
+          </a>
+        </div>
+
+        <div class="menu-item">
+          <a class="enlance" href="">
+            <img src="../svg/shorts.svg">
+            <span>Robotica</span>
+          </a>
+        </div>
+
+        <div class="menu-item">
+          <a class="enlance" href="">
+            <img src="../svg/curso.svg">
+            <span>Cursos</span>
+          </a>
+        </div>
       </div>
 
       <div class="menu-group">
@@ -56,6 +65,7 @@
             <img src="../svg/perfil.svg">
             <span>Perfil</span>
           </div>
+          
           <div class="menu-item">
             <img src="../svg/cerrar.svg">
             <span>Cerrar sesion</span>
