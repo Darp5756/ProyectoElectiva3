@@ -40,9 +40,9 @@
               </div>
     
               <div>
-                <h2></h2>
+                <h2>Inteligencia artificial y Robotica</h2>
                 <p>
-                 
+                 Cuando la inteligencia artificial y la robotica se unen se pueden crear grandes cosas aunque este robot es pequeño pero es capaz de grandes cosas.
                 </p>
               </div>
   
@@ -55,34 +55,35 @@
             </div>
             <!--Videos parte derecha-->
             <div class="right">
-              
-                  <div>
-                    <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/robotica.mp4" type="video/mp4">
-                    </video>
-                  </div>
-
-                  <div>
-                    <video class="right miVideo" controls autoplay muted>
+          <div>
+          <video class="right miVideo" controls autoplay muted>
                       <source src="../video/inteligencia.mp4" type="video/mp4">
-                    </video>
-                  </div>
+                    </video>             </div>
 
-                  <div>
-                    <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/sistemas.mp4" type="video/mp4">
-                    </video>
-                  </div>
+          <div>
+          <video class="right miVideo" controls autoplay muted>
+                      <source src="../video/inteligencia.mp4" type="video/mp4">
+                    </video>             </div>
 
-                  
-            </div>
-          </div>
+          <div>
+          <video class="right miVideo" controls autoplay muted>
+                      <source src="../video/robotica.mp4" type="video/mp4">          </div>
+
+          <div>
+          <video class="right miVideo" controls autoplay muted>
+                      <source src="../video/robotica.mp4" type="video/mp4">          </div>
+
+          <div>
+          <video class="right miVideo" controls autoplay muted>
+                      <source src="../video/.mp4" type="video/mp4">
+                    </video>             </div>
         </div>
-
+      </div>
+    </div>
     <!-- Llamado a js -->
     <script src="{{asset('js/slider.js')}}"></script>
     <script src="{{asset('js/menu.js')}}"></script>
     <script src="{{asset('js/videopause.js')}}"></script>
 
   </body>
-</html>
+</html>  

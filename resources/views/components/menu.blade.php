@@ -9,9 +9,7 @@
         <div class="menu-btn">
           <img src="../svg/menu.svg" alt="menu-icon">
         </div>
-        <a href="#">
           <img src="" alt="-logo">
-        </a>
       </div>
  <!-- contenido del menu -->
 
