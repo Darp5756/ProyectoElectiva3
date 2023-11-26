@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <div class="menu-group">
+      <div class="menu-group" style="color: white;">
         <div class="menu-item">
             <img src="../svg/perfil.svg">
             <span>Perfil</span>
