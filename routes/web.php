@@ -36,7 +36,7 @@ Route::get('/vista/cartas', [CartasControlador::class, 'Vista_Cursos'])->name('v
 Route::get('/vista/robotica', [RoboticaControlador::class, 'Vista_Robotica'])->name('vista.robotica');
 
 //Inteligencia Artificial
-Route::get('/vista/artificial', [ArtificialsControlador::class, 'Vista_Artificial'])->name('vista.artificial');
+Route::get('/vista/artificial', [ArtificialControlador::class, 'Vista_Artificial'])->name('vista.artificial');
 
 //Inicio
 Route::get('/inicio', [LoginController::class, 'Vista_Inicio'])->name('vista.inicio');
