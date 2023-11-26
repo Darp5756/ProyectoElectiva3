@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CartasControlador;
+use App\Http\Controllers\RoboticaControlador;
+use App\Http\Controllers\ArtificialControlador;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,6 +31,12 @@ Route::post('/login/ingresar', [LoginController::class, 'Login'])->name('login.i
 
 //Cartas
 Route::get('/vista/cartas', [CartasControlador::class, 'Vista_Cursos'])->name('vista.cartas');
+
+//Robotica
+Route::get('/vista/robotica', [RoboticaControlador::class, 'Vista_Robotica'])->name('vista.robotica');
+
+//Inteligencia Artificial
+Route::get('/vista/artificial', [ArtificialsControlador::class, 'Vista_Artificial'])->name('vista.artificial');
 
 //Inicio
 Route::get('/inicio', [LoginController::class, 'Vista_Inicio'])->name('vista.inicio');
