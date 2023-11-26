@@ -32,28 +32,28 @@
 
       <div class="menu-group">
         <div class="menu-item">
-          <a class="enlance" href="">
+          <a class="enlance" href="{{ route('vista.artificial') }}">
             <img src="../svg/inicio.svg">
             <span>Inicio</span>
           </a>
       </div>
 
         <div class="menu-item">
-          <a class="enlance" href="">
+          <a class="enlance" href="{{ route('vista.artificial') }}">
             <img src="../svg/shorts.svg">
             <span>Inteligencia Artificial</span>
           </a>
         </div>
 
         <div class="menu-item">
-          <a class="enlance" href="">
+          <a class="enlance" href="{{ route('vista.robotica') }}">
             <img src="../svg/shorts.svg">
             <span>Robotica</span>
           </a>
         </div>
 
         <div class="menu-item">
-          <a class="enlance" href="">
+          <a class="enlance" href="{{ route('vista.cartas') }}">
             <img src="../svg/curso.svg">
             <span>Cursos</span>
           </a>

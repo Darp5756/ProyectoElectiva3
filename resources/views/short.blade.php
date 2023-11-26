@@ -32,7 +32,7 @@
 
       <div class="menu-group">
         <div class="menu-item">
-          <a class="enlance" href="">
+          <a class="enlance" href="{{ route('vista.inicio') }}">
             <img src="../svg/inicio.svg">
             <span>Inicio</span>
           </a>
