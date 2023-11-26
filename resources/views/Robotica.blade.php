@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robotica</title>
+    <title>Inteligencia artificial</title>
     <link rel="preload" href="{{ asset('css/short.css') }}" as="style">
     <link rel="stylesheet" href="{{ asset('css/short.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
@@ -29,7 +29,7 @@
           <div class="wrapper">
             <div class="left">
               <div>
-                <h2>Robotica</h2>
+              <h2>Robotica</h2>
                 <p>
                 Es un campo que combina la ingeniería y la tecnología para diseñar, desarrollar y 
                   utilizar robots en diversos entornos y aplicaciones. Los robots son máquinas programables capaces de realizar 
@@ -56,29 +56,33 @@
             </div>
             <!--Videos parte derecha-->
             <div class="right">
-              
-                  <div>
-                    <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/robotica.mp4" type="video/mp4">
-                    </video>
-                  </div>
-
-                  <div>
-                    <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/inteligencia.mp4" type="video/mp4">
-                    </video>
-                  </div>
-
-                  <div>
-                    <video class="right miVideo" controls autoplay muted>
+          <div>
+          <video class="right miVideo" controls autoplay muted>
                       <source src="../video/sistemas.mp4" type="video/mp4">
-                    </video>
-                  </div>
+                    </video>          </div>
 
-                  
-            </div>
-          </div>
+          <div>
+          <video class="right miVideo" controls autoplay muted>
+                      <source src="../video/sistemas.mp4" type="video/mp4">
+                    </video>          </div>
+
+          <div>
+          <video class="right miVideo" controls autoplay muted>
+                      <source src="../video/sistemas.mp4" type="video/mp4">
+                    </video>          </div>
+
+          <div>
+          <video class="right miVideo" controls autoplay muted>
+                      <source src="../video/sistemas.mp4" type="video/mp4">
+                    </video>          </div>
+
+          <div>
+          <video class="right miVideo" controls autoplay muted>
+                      <source src="../video/sistemas.mp4" type="video/mp4">
+                    </video>          </div>
         </div>
+      </div>
+    </div>
 
     <!-- Llamado a js -->
     <script src="{{asset('js/slider.js')}}"></script>
@@ -86,4 +90,4 @@
     <script src="{{asset('js/videopause.js')}}"></script>
 
   </body>
-</html>
+</html> 
