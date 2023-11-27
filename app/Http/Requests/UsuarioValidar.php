@@ -24,17 +24,17 @@ class UsuarioValidar extends FormRequest
     {
         return [
             //
-            'correo' =>'required|min:10|max:80|email|' . Rule::unique('persona', 'correo')->ignore($this->correo, 'correo'),
+            'usuario' =>'required|min:3|max:10|regex:/^[\pL\d\-]+(?!\s)$/u|' . Rule::unique('usuario', 'usuario')->ignore($this->id_usuario, 'id_usuario'),
             'clave' =>'required|min:3|max:10|',
         ];
     }
     public function messages(){
         return [
-            'correo.required' => 'Debes llenar el campo',
-            'correo.min' => 'La cantidad minima de caracteres es 10',
-            'correo.max' => 'La cantidad maxima de caracteres es 80',
-            'correo.unique' => 'El correo ya se encuentra registrado',
-            'correo.email' => 'El formato de su correo electronico es invalido',
+            'usuario.required' => 'Debe llenar el campo',
+            'usuario.min' => 'La cantidad minima de caracteres es 3',
+            'usuario.max' => 'La cantidad maxima de caracteres es 10',
+            'usuario.unique' => 'El usuario ya se encuentra registrada',
+            'usuario.regex' => 'Solo se aceptan letras y espacios, no numeros',
             'clave.required' => 'Debe llenar el campo',
             'clave.min' => 'La cantidad minima de caracteres es 3',
             'clave.max' => 'La cantidad maxima de caracteres es 10',

@@ -20,7 +20,7 @@
 </nav>
     <div class="form-division"> <!--Clase de la division del formulario-->
         <div class="form-crear">
-            <form class="mi-form">
+            <form name="form" class="mi-form" action="{{route('registro.guardar')}}" method="POST"> @csrf
                 <div class="login-welcome-row">
                     <h1>Crea tu cuenta &#x1F44F;</h1>
                 </div>
@@ -41,9 +41,9 @@
                 </div>
                 <div class="text-field">
                     <label for="email">Email:
-                        <input type="email" id="email" name="correo" autocomplete="off" placeholder="Tu Email"
+                        <input type="text" id="usuario" name="usuario" autocomplete="off" placeholder="Tu Usuario"
                             required>
-                            @error('correo')
+                            @error('usuario')
                             {{ $message }}
                             @enderror
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
