@@ -43,7 +43,7 @@
                 </div>
                 <div class="text-field">
                     <label for="text">Usuario:
-                        <input type="text" id="email" name="usuario" autocomplete="off" placeholder="Tu Usuario"
+                        <input type="text" id="usuario" name="usuario" autocomplete="off" placeholder="Tu Usuario"
                             required>
                             @error('usuario')
                             {{ $message }}
