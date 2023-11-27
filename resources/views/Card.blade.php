@@ -6,16 +6,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <body>
 <div class="containere">
   <aside class="sidebar" style="display: flex;">
+  @if (Auth::check())
     <div class="menu-btn">
       <img src="../svg/menu.svg" alt="menu">
     </div>
+    @else
+    <a class="enlance" href="{{ route('vista.login') }}">Iniciar sesión  </a>
+      @endif
     <h1 class="cursoh1" style="justify-content: center; align-items: center; color: white;">Cursos disponibles</h1>
   </aside>
      <!-- icono Menu -->
@@ -67,8 +70,10 @@
           </div>
 
           <div class="menu-item">
+          <a class="enlance" href="{{ route('login.logout') }}">
             <img src="../svg/cerrar.svg">
             <span>Cerrar sesion</span>
+            </a>
           </div>
       </div>
     </div> 

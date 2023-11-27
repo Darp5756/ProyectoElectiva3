@@ -47,8 +47,10 @@
               </div>
   
               <div>
-                <h2></h2>
+                <h2>asfasfasfasfasfasfasfas</h2>
                 <p>
+                Cuando la inteligencia artificial y la robotica se unen se pueden crear grandes cosas aunque este robot es pequeño pero es capaz de grandes cosas.
+
                  </p>
               </div>
     
@@ -65,17 +67,8 @@
                       <source src="../video/inteligencia.mp4" type="video/mp4">
                     </video>             </div>
 
-          <div>
           <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/robotica.mp4" type="video/mp4">          </div>
-
-          <div>
-          <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/robotica.mp4" type="video/mp4">          </div>
-
-          <div>
-          <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/.mp4" type="video/mp4">
+                      <source src="../video/ia.mp4" type="video/mp4">
                     </video>             </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
         <img src="../svg/menu.svg" alt="menu">
       </div>
       @else
-      Iniciar sesión
+      <a class="enlance" href="{{ route('vista.login') }}">Iniciar sesión  </a>
       @endif
     </aside>
     
@@ -47,13 +47,14 @@
           </a>
         </div>
       </div>
+      <!--
 
       <div class="menu-group">
         <div class="menu-item">
             <img src="../svg/perfil.svg">
             <span>Perfil</span>
           </div>
-
+-->
           <div class="menu-item">
            <a class="enlance" href="{{ route('login.logout') }}">
             <img src="../svg/cerrar.svg">
