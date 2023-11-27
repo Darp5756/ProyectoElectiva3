@@ -19,6 +19,7 @@ class LoginController extends Controller
     public function Registro (UsuarioValidar $request)
     {
         Usuario::create($request->all());
+        
         return redirect()->route('vista.login')->withSuccess('Usuario registrado exitosamente');
     }
 

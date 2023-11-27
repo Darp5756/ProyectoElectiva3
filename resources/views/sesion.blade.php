@@ -40,7 +40,7 @@
                     <span class="divider-line"></span>
                 </div>
                 <div class="text-field">
-                    <label for="email">Email:
+                    <label for="email">Usuario:
                         <input type="text" id="usuario" name="usuario" autocomplete="off" placeholder="Tu Usuario"
                             required>
                             @error('usuario')
