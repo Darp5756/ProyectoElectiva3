@@ -28,6 +28,7 @@
           <!--Titulo y descepcion parte izquierda-->
           <div class="wrapper">
             <div class="left">
+
               <div>
               <h2>Inteligencia artificial</h2>
                 <p>
@@ -57,19 +58,25 @@
             </div>
             <!--Videos parte derecha-->
             <div class="right">
-          <div>
-          <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/inteligencia2.mp4" type="video/mp4">
-                    </video>             </div>
 
           <div>
-          <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/inteligencia.mp4" type="video/mp4">
-                    </video>             </div>
+            <video class="right miVideo" controls autoplay muted>
+              <source src="../video/inteligencia2.mp4" type="video/mp4">
+            </video>
+          </div>
 
-          <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/ia.mp4" type="video/mp4">
-                    </video>             </div>
+          <div>
+            <video class="right miVideo" controls autoplay muted>
+              <source src="../video/inteligencia.mp4" type="video/mp4">
+            </video> 
+          </div>
+
+          <div>
+            <video class="right miVideo" controls autoplay muted>
+              <source src="../video/ia.mp4" type="video/mp4">
+            </video>            
+          </div>
+          
         </div>
       </div>
     </div>
