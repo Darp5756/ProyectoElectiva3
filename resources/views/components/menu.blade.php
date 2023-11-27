@@ -50,8 +50,10 @@
           </div>
 
           <div class="menu-item">
+           <a class="enlance" href="{{ route('usuario.cerrar_sesion') }}">
             <img src="../svg/cerrar.svg">
             <span>Cerrar sesion</span>
+            </a>
           </div>
       </div>
     </div>

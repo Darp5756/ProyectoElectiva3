@@ -29,6 +29,9 @@ Route::post('/registro/usuario', [LoginController::class, 'Registro'])->name('re
 Route::get('/vista/login', [LoginController::class, 'Vista_Login'])->name('vista.login');
 Route::post('/login/ingresar', [LoginController::class, 'Login'])->name('login.ingresar');
 
+//Cerrar Sesion
+Route::get('/usuario/cerrar_sesion', [LoginController::class, 'Logout'])->name('usuario.cerrar.sesion');
+
 //Cartas
 Route::get('/vista/cartas', [CartasControlador::class, 'Vista_Cursos'])->name('vista.cartas');
 
