@@ -22,7 +22,7 @@
 </nav>
     <div class="form-division"> <!--Clase de la division del formulario-->
         <div class="form-crear">
-            <form class="mi-form">
+            <form name="form" class="mi-form" action="{{route('login.ingresar')}}" method="POST"> @csrf
                 <div class="login-welcome-row">
                     <h1>Inicio de sesion &#x1F44F;</h1>
                 </div>
@@ -42,10 +42,10 @@
                     <span class="divider-line"></span>
                 </div>
                 <div class="text-field">
-                    <label for="email">Email:
-                        <input type="email" id="email" name="correo" autocomplete="off" placeholder="Tu Email"
+                    <label for="text">Usuario:
+                        <input type="text" id="usuario" name="usuario" autocomplete="off" placeholder="Tu Usuario"
                             required>
-                            @error('correo')
+                            @error('usuario')
                             {{ $message }}
                             @enderror
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -59,9 +59,7 @@
                 </div>
                 <div class="text-field">
                     <label for="password">Password:
-                        <input id="password" type="password" name="clave" placeholder="Tu Password" title="Minimo 6 caracteres 
-                                                        Debe contener 1 letra y 1 numero"
-                            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                        <input id="password" type="password" name="clave" placeholder="Tu Password" required>
                             @error('clave')
                             {{ $message }}
                             @enderror

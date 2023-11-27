@@ -57,7 +57,7 @@
             <div class="right">
           <div>
           <video class="right miVideo" controls autoplay muted>
-                      <source src="../video/inteligencia.mp4" type="video/mp4">
+                      <source src="../video/inteligencia2.mp4" type="video/mp4">
                     </video>             </div>
 
           <div>
