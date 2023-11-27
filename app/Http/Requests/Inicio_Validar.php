@@ -11,7 +11,7 @@ class Inicio_Validar extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -23,16 +23,15 @@ class Inicio_Validar extends FormRequest
     {
         return [
             //
-            'correo' =>'required|min:10|max:80|email|',
+            'usuario' =>'required|min:3|max:10|regex:/^[\pL\d\-]+(?!\s)$/u|',
             'clave' =>'required|min:3|max:10|',
         ];
     }
     public function messages(){
         return [
-            'correo.required' => 'Debes llenar el campo',
-            'correo.min' => 'La cantidad minima de caracteres es 10',
-            'correo.max' => 'La cantidad maxima de caracteres es 80',
-            'correo.email' => 'El formato de su correo electronico es invalido',
+            'usuario.required' => 'Debe llenar el campo',
+            'usuario.min' => 'La cantidad minima de caracteres es 3',
+            'usuario.max' => 'La cantidad maxima de caracteres es 10',
             'clave.required' => 'Debe llenar el campo',
             'clave.min' => 'La cantidad minima de caracteres es 3',
             'clave.max' => 'La cantidad maxima de caracteres es 10',
