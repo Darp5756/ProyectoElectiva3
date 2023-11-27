@@ -1,7 +1,11 @@
 <aside class="sidebar">
+      @if (Auth::check())
       <div class="menu-btn"> 
         <img src="../svg/menu.svg" alt="menu">
       </div>
+      @else
+      Iniciar sesión
+      @endif
     </aside>
      <!-- icono Menu -->
     <div id="menu">
