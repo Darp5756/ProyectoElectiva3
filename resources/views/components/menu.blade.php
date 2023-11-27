@@ -50,7 +50,7 @@
           </div>
 
           <div class="menu-item">
-           <a class="enlance" href="{{ route('usuario.cerrar_sesion') }}">
+           <a class="enlance" href="{{ route('login.logout') }}">
             <img src="../svg/cerrar.svg">
             <span>Cerrar sesion</span>
             </a>
