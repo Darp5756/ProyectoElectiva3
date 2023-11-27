@@ -42,10 +42,10 @@
                     <span class="divider-line"></span>
                 </div>
                 <div class="text-field">
-                    <label for="email">Email:
-                        <input type="email" id="email" name="correo" autocomplete="off" placeholder="Tu Email"
+                    <label for="text">Usuario:
+                        <input type="text" id="email" name="usuario" autocomplete="off" placeholder="Tu Usuario"
                             required>
-                            @error('correo')
+                            @error('usuario')
                             {{ $message }}
                             @enderror
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"

@@ -40,7 +40,7 @@
                     <span class="divider-line"></span>
                 </div>
                 <div class="text-field">
-                    <label for="email">Usuario:
+                    <label for="text">Usuario:
                         <input type="text" id="usuario" name="usuario" autocomplete="off" placeholder="Tu Usuario"
                             required>
                             @error('usuario')
@@ -57,9 +57,8 @@
                 </div>
                 <div class="text-field">
                     <label for="password">Password:
-                        <input id="password" type="password" name="clave" placeholder="Tu Password" title="Minimo 6 caracteres 
-                                                        Debe contener 1 letra y 1 numero"
-                            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                        <input id="password" type="password" name="clave" placeholder="Tu Password" 
+                             required>
                             @error('clave')
                             {{ $message }}
                             @enderror
