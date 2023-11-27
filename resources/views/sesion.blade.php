@@ -12,12 +12,7 @@
 </head>
 <body>
 <section>
-<nav>
-  <div >
-    <a href="{{ route('vista.inicio') }}">
-      <img src="{{ asset('img/logo6.jpg') }}" alt="Logo" width="200" height="50"></a>
-  </div>
-</nav>
+<x-nav></x-nav>
 
     <div class="form-division"> <!--Clase de la division del formulario-->
         <div class="form-crear">

@@ -12,14 +12,7 @@
 </head>
 <body>
 <section>
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="{{ asset('img/logoG.jpg') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-    
-    </a> <span>YetDi </span>
-  </div>
-</nav>
+<x-nav></x-nav>
     <div class="form-division"> <!--Clase de la division del formulario-->
         <div class="form-crear">
             <form name="form" class="mi-form" action="{{route('login.ingresar')}}" method="POST"> @csrf

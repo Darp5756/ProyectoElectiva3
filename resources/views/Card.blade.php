@@ -25,7 +25,7 @@
           <img src="../svg/menu.svg" alt="menu-icon">
         </div>
         <a href="#">
-          <img src="" alt="-logo">
+          <img src="{{ asset('img/logomenu2.png') }}" alt="Logo" width="130" height="50" alt="-logo">
         </a>
       </div>
  <!-- contenido del menu -->

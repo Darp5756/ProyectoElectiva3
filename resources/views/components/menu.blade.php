@@ -3,13 +3,14 @@
         <img src="../svg/menu.svg" alt="menu">
       </div>
     </aside>
+    
      <!-- icono Menu -->
     <div id="menu">
       <div class="menu-header">
         <div class="menu-btn">
           <img src="../svg/menu.svg" alt="menu-icon">
         </div>
-          <img src="" alt="-logo">
+          <img src="{{ asset('img/logomenu2.png') }}" alt="Logo" width="130" height="50" alt="-logo">
       </div>
  <!-- contenido del menu -->
 
@@ -59,8 +60,6 @@
     </div>
     <section>
       <nav>
-        <a href="">
-          <img src="" alt="-logo">
-        </a>
+
         <h1 class="titulo-nav">YetDi </h1>
       </nav>
