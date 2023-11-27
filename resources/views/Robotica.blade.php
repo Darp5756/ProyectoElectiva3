@@ -41,15 +41,31 @@
               </div>
     
               <div>
-                <h2></h2>
+                <h2>Curiosidades de la robotica</h2>
                 <p>
-                 
+                Datos adicionales: <br>Los robots blandos utilizan materiales como polímeros y elastómeros para construir sus cuerpos y sistemas de actuación 
+                Por ejemplo, en una línea de producción de teléfonos móviles, los robots blandos pueden ser utilizados para colocar con cuidado los 
+                componentes electrónicos en su lugar, como la pantalla, la placa base y la batería. <br>
+              Los cobots son capaces de detectar la presencia humana y ajustar su comportamiento en consecuencia, lo que los hace ideales para tareas 
+              que requieren una estrecha colaboración entre humanos y robots.Los cobots se utilizan en una amplia gama de industrias, desde la fabricación hasta la atención médica.<br>
+            
                 </p>
               </div>
   
               <div>
                 <h2></h2>
                 <p>
+                Materiales necesarios:<br>
+                  Fuente de voltaje <br>
+                  Mini protoboard<br>
+                  Jumpers macho macho<br>
+                  Sensor ultrasónico HCSR04<br>
+                  Bomba de agua 5volts<br>
+                  Resistencia 1000 ohms<br>
+                  Transistor 2n222<br>
+                  Baterias o fuente regulable<br>
+                  Concepto de trabajo: El proyecto utiliza un sensor ultrasónico para detectar la presencia de un vaso cerca del bebedero.
+                   Cuando se detecta un vaso, el Arduino activa una válvula para dispensar agua automáticamente.
                  </p>
               </div>
     

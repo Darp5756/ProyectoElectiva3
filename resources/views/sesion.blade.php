@@ -7,17 +7,18 @@
     <title>Registro</title>
     <link rel="preload" href="{{ asset('css/sesion.css') }}" as="style">
     <link rel="stylesheet" href="{{ asset('css/sesion.css') }}">
+    
+
 </head>
 <body>
 <section>
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="{{ asset('img/logoG.jpg') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-       
-    </a><span>YetDi</span>
+<nav>
+  <div >
+    <a href="{{ route('vista.inicio') }}">
+      <img src="{{ asset('img/logo6.jpg') }}" alt="Logo" width="200" height="50"></a>
   </div>
 </nav>
+
     <div class="form-division"> <!--Clase de la division del formulario-->
         <div class="form-crear">
             <form class="mi-form">

@@ -11,12 +11,25 @@
 body {
     font-size: 20px;
 }
-
-.navbar{
-    background-color: #161939;
-    color: #fff;
-}
-
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand span {
+    color: black;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    line-height: none;
+    margin-left: 5px;
+  }
+  
+  .navbar-brand img {
+    background-color: white;
+  }
+  
+  
 /*Registrate con google o apple*/
 .sociales-row {
     display: flex;
@@ -241,7 +254,6 @@ body {
         padding: 48px 48px 48px 32px;
     }
 }
-
 
 /*Informacion de ujgh media*/
 .info-side {
