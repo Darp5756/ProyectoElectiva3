@@ -41,8 +41,11 @@
                 </div>
                 <div class="text-field">
                     <label for="email">Email:
-                        <input type="email" id="email" name="email" autocomplete="off" placeholder="Tu Email"
+                        <input type="email" id="email" name="correo" autocomplete="off" placeholder="Tu Email"
                             required>
+                            @error('correo')
+                            {{ $message }}
+                            @enderror
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
                             stroke-linejoin="round">
@@ -54,9 +57,12 @@
                 </div>
                 <div class="text-field">
                     <label for="password">Password:
-                        <input id="password" type="password" name="password" placeholder="Tu Password" title="Minimo 6 caracteres 
+                        <input id="password" type="password" name="clave" placeholder="Tu Password" title="Minimo 6 caracteres 
                                                         Debe contener 1 letra y 1 numero"
                             pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                            @error('clave')
+                            {{ $message }}
+                            @enderror
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
                             stroke-linejoin="round">

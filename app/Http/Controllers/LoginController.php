@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Usuario;
 use Illuminate\Http\Request;
+use App\Http\Requests\UsuarioValidar;
+use App\Http\Requests\Inicio_Validar;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
@@ -14,7 +16,7 @@ class LoginController extends Controller
         return view('sesion');
     }
 
-    public function Registro (Request $request)
+    public function Registro (UsuarioValidar $request)
     {
         Usuario::create($request->all());
         return redirect()->route('vista.login')->withSuccess('Usuario registrado exitosamente');
@@ -25,7 +27,7 @@ class LoginController extends Controller
         return view('login');
     }
 
-    public function Login(Request $request)
+    public function Login(Inicio_Validar $request)
     {
         $usuario = Usuario::where('usuario', $request->usuario)->first();
         if (!$usuario) {
