@@ -7,7 +7,9 @@
     --background: #80e3d4b4;
     --text: #161939;
 }
-
+.imgc{
+    text-align: center;
+}
 body {
     font-size: 20px;
 }

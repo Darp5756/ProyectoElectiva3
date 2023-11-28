@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+    <link rel="shortcut icon" href="{{ asset('img/logo6.jpg') }}" type="image/x-icon">
     <link rel="preload" href="{{ asset('css/sesion.css') }}" as="style">
     <link rel="stylesheet" href="{{ asset('css/sesion.css') }}">
     
@@ -19,21 +20,6 @@
             <form name="form" class="mi-form" action="{{route('registro.guardar')}}" method="POST"> @csrf
                 <div class="login-welcome-row">
                     <h1>Crea tu cuenta &#x1F44F;</h1>
-                </div>
-                <div class="sociales-row">
-                    <a href="#" title="Use Google">
-                        <img src="{{ asset('img/logoG.jpg') }}" alt="Google">
-                        Registrate con Google
-                    </a>
-                    <a href="#" title="Use Apple">
-                        <img src="{{ asset('img/logoA.jpg') }}" alt="Apple">
-                        Registrate con Apple
-                    </a>
-                </div>
-                <div class="divider">
-                    <span class="divider-line"></span>
-                    Or
-                    <span class="divider-line"></span>
                 </div>
                 <div class="text-field">
                     <label for="text">Usuario:
