@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ asset('assets/bootstrap.min.css') }}">
+
 <aside class="sidebar">
       @if (Auth::check())
       <div class="menu-btn"> 
