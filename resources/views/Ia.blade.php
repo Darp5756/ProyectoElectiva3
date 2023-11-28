@@ -74,31 +74,31 @@
             <div class="right">
             <div>
             <video class="right miVideo" controls autoplay muted>
-              <source src="../video/robotica.mp4" type="video/mp4">
+              <source src="{{asset('video/robotica.mp4')}}" type="video/mp4">
             </video>
           </div>
 
           <div>
             <video class="right miVideo" controls autoplay muted>
-              <source src="../video/curiosidad.mp4" type="video/mp4">
+              <source src="{{asset('video/curiosidad.mp4')}}" type="video/mp4">
             </video> 
           </div>
 
           <div>
             <video class="right miVideo" controls autoplay muted>
-              <source src="../video/inteligencia2.mp4" type="video/mp4">
+              <source src="{{asset('video/inteligencia2.mp4')}}" type="video/mp4">
             </video>
           </div>
 
           <div>
             <video class="right miVideo" controls autoplay muted>
-              <source src="../video/inteligencia.mp4" type="video/mp4">
+              <source src="{{asset('video/inteligencia.mp4')}}" type="video/mp4">
             </video> 
           </div>
 
           <div>
             <video class="right miVideo" controls autoplay muted>
-              <source src="../video/ia.mp4" type="video/mp4">
+              <source src="{{asset('video/ia.mp4')}}" type="video/mp4">
             </video>            
           </div>
           

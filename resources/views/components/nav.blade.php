@@ -1,3 +1,4 @@
+@include('sweetalert::alert')
 <nav>
   <div >
     <a href="{{ route('vista.inicio') }}">
