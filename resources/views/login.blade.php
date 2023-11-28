@@ -18,7 +18,7 @@
         <div class="form-crear">
             <form name="form" class="mi-form" action="{{route('login.ingresar')}}" method="POST"> @csrf
                 <div class="login-welcome-row">
-                    <h1>Inicio de sesion &#x1F44F;</h1>
+                    <h1>Inicio de sesión &#x1F44F;</h1>
                 </div>
                 <div class="text-field">
                     <label for="text">Usuario:

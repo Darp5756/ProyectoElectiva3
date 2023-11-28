@@ -36,7 +36,7 @@
         <div class="menu-item">
           <a class="enlance" href="{{ route('vista.robotica') }}">
             <img src="../svg/shorts.svg">
-            <span>Robotica</span>
+            <span>Robótica</span>
           </a>
         </div>
 
@@ -58,7 +58,7 @@
           <div class="menu-item">
            <a class="enlance" href="{{ route('login.logout') }}">
             <img src="../svg/cerrar.svg">
-            <span>Cerrar sesion</span>
+            <span>Cerrar sesión</span>
             </a>
           </div>
       </div>
