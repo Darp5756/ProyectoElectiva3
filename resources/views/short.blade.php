@@ -51,7 +51,7 @@
           </div>
 
           <div>
-                    <video class="right miVideo" controls autoplay muted>
+                    <video class="right miVideo" controls autoplay >
                       <source src="../video/sistemas.mp4" type="video/mp4">
                     </video>
                   </div>

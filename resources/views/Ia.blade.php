@@ -48,24 +48,21 @@
               </div>
   
               <div>
-                <h2>asfasfasfasfasfasfasfas</h2>
+                <h2>IA para exposiciones virtuales</h2>
                 <p>
-                Cuando la inteligencia artificial y la robotica se unen se pueden crear grandes cosas aunque este robot es pequeño pero es capaz de grandes cosas.
-
+                Heygen.com es un sitio web que ofrece una herramienta de inteligencia artificial (IA) llamada HeyGen. Esta herramienta utiliza IA para clonar voces y generar contenido de audio realista. Con HeyGen, los usuarios pueden crear voces sintéticas que suenan como personas reales, lo que puede ser útil en diversas aplicaciones, como doblaje de películas, narración de audiolibros, asistentes de voz y más.
                  </p>
               </div>
               <div>
-                <h2>Inteligencia artificial y Robotica</h2>
+                <h2>IA para investigaciones</h2>
                 <p>
-                 Cuando la inteligencia artificial y la robotica se unen se pueden crear grandes cosas aunque este robot es pequeño pero es capaz de grandes cosas.
-                </p>
+                SciSpace: Un sistema de IA que facilita la comprensión de los documentos académicos. SciSpace permite analizar punto por punto. Solo bastará con resaltar la parte confusa del texto y la IA lo explicará de una manera más comprensible.                </p>
               </div>
   
               <div>
-                <h2>asfasfasfasfasfasfasfas</h2>
+                <h2>Deep Blue</h2>
                 <p>
-                Cuando la inteligencia artificial y la robotica se unen se pueden crear grandes cosas aunque este robot es pequeño pero es capaz de grandes cosas.
-
+                La IA que derrotó a Kasparov en ajedrez fue el sistema de IBM llamado Deep Blue. En 1997, Deep Blue se enfrentó al campeón mundial de ajedrez Garry Kasparov en una serie de partidas. Después de una intensa competencia, Deep Blue logró ganar la partida decisiva y se convirtió en el primer sistema de IA en derrotar a un campeón mundial de ajedrez en un enfrentamiento oficial
                  </p>
               </div>
     
@@ -73,31 +70,31 @@
             <!--Videos parte derecha-->
             <div class="right">
             <div>
-            <video class="right miVideo" controls autoplay >
-              <source src="{{asset('video/robotica.mp4')}}" type="video/mp4">
+            <video class="right miVideo" controls autoplay muted>
+              <source src="{{asset('video/ia_deep_blue.mp4')}}" type="video/mp4">
             </video>
           </div>
 
           <div>
-            <video class="right miVideo" controls autoplay >
-              <source src="{{asset('video/curiosidad.mp4')}}" type="video/mp4">
+            <video class="right miVideo" controls autoplay muted>
+              <source src="{{asset('video/IA-articulos.mp4')}}" type="video/mp4">
             </video> 
           </div>
 
           <div>
-            <video class="right miVideo" controls autoplay >
+            <video class="right miVideo" controls autoplay muted>
               <source src="{{asset('video/inteligencia2.mp4')}}" type="video/mp4">
             </video>
           </div>
 
           <div>
-            <video class="right miVideo" controls autoplay >
+            <video class="right miVideo" controls autoplay muted>
               <source src="{{asset('video/inteligencia.mp4')}}" type="video/mp4">
             </video> 
           </div>
 
           <div>
-            <video class="right miVideo" controls autoplay >
+            <video class="right miVideo" controls autoplay muted>
               <source src="{{asset('video/ia.mp4')}}" type="video/mp4">
             </video>            
           </div>

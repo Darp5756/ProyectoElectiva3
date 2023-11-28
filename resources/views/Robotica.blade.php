@@ -72,15 +72,13 @@
               <div>
                 <h2>Humanoide Sophia</h2>
                 <p>
-                 Cuando la inteligencia artificial y la robotica se unen se pueden crear grandes cosas aunque este robot es pequeño pero es capaz de grandes cosas.
-                </p>
+                Sophia es un robot humanoide desarrollado por la compañía Hanson Robotics, con sede en Hong Kong. Fue diseñada para aprender, adaptarse al comportamiento humano y trabajar de manera satisfactoria con las personas. Sophia ha sido entrevistada en varias ocasiones y ha ganado reconocimiento mundial por sus conductas casi humanas. En octubre de 2017, se convirtió en la primera robot en obtener la ciudadanía saudí, lo que generó controversia sobre los derechos y obligaciones de los robots                </p>
               </div>
   
               <div>
-                <h2>asfasfasfasfasfasfasfas</h2>
+                <h2>Team venezuela</h2>
                 <p>
-                Cuando la inteligencia artificial y la robotica se unen se pueden crear grandes cosas aunque este robot es pequeño pero es capaz de grandes cosas.
-
+                El equipo venezolano de robótica logró un gran éxito al ganar la medalla de oro en el First Global Challenge Singapur 2023. Este desafío anual, organizado por First Global, busca inspirar a los jóvenes a liderar e innovar en ciencia y tecnología, promoviendo valores como la cooperación y la búsqueda de soluciones a los problemas más urgentes del mundo. En el evento, los participantes exploraron el potencial del hidrógeno como fuente de energía sostenible a través de desafíos de robótica únicos
                  </p>
               </div>
     
@@ -88,31 +86,31 @@
             <!--Videos parte derecha-->
             <div class="right">
             <div>
-            <video class="right miVideo" controls autoplay >
-              <source src="{{asset('video/robotica.mp4')}}" type="video/mp4">
+            <video class="right miVideo" controls autoplay muted>
+              <source src="{{asset('video/robotica_team_venezuela.mp4')}}" type="video/mp4">
             </video>
           </div>
 
           <div>
-            <video class="right miVideo" controls autoplay >
+            <video class="right miVideo" controls autoplay muted>
               <source src="{{asset('video/sophia.mp4')}}" type="video/mp4">
             </video> 
           </div>
 
           <div>
-            <video class="right miVideo" controls autoplay >
+            <video class="right miVideo" controls autoplay muted>
               <source src="{{asset('video/robotica.mp4')}}" type="video/mp4">
             </video>
           </div>
 
           <div>
-            <video class="right miVideo" controls autoplay >
+            <video class="right miVideo" controls autoplay muted>
               <source src="{{asset('video/curiosidad.mp4')}}" type="video/mp4">
             </video> 
           </div>
 
           <div>
-            <video class="right miVideo" controls autoplay >
+            <video class="right miVideo" controls autoplay muted>
               <source src="{{asset('video/roboticaintro.mp4')}}" type="video/mp4">
             </video>            
           </div>
