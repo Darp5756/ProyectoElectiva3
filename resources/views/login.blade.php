@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Login</title>
     <link rel="preload" href="{{ asset('css/sesion.css') }}" as="style">
     <link rel="stylesheet" href="{{ asset('css/sesion.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -17,7 +17,7 @@
         <div class="form-crear">
             <form name="form" class="mi-form" action="{{route('login.ingresar')}}" method="POST"> @csrf
                 <div class="login-welcome-row">
-                    <h1>Inicio de sesion &#x1F44F;</h1>
+                    <h1>Inicio de sesión &#x1F44F;</h1>
                 </div>
                 <div class="sociales-row">
                     <a href="#" title="Use Google">
