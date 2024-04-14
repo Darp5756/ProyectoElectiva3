@@ -239,23 +239,23 @@ const datos_materias = {
         "imagen": "formulacion_y_evaluacion_de_proyectos.png",
         "autor": "Nixon Parra",
     },
-    /*
     "Ética Aplicada y Política": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "etica_aplicada_y_politica.png",
+        "autor": "Diego Ribon",
     },
     "Calidad de los Sistemas": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "calidad_de_los_sistemas.jpg",
+        "autor": "Diego Ribon",
     },
     "Ejecución y Control de Proyectos": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "ejecucion_y_control_de_proyectos.jpg",
+        "autor": "Diego Ribon",
     },
     "Prácticas Profesionales II": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "practicas_profesionales_2.jpg",
+        "autor": "Diego Ribon",
     },
+    /*
     "Trabajo Especial de Titulación": {
         "imagen": "",
         "autor": "",
