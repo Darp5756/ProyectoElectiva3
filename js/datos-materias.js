@@ -255,14 +255,12 @@ const datos_materias = {
         "imagen": "practicas_profesionales_2.jpg",
         "autor": "Diego Ribon",
     },
-    /*
     "Trabajo Especial de Titulación": {
-        "imagen": "",
-        "autor": "",
+        "imagen": "practicas_profesionales_iii.jpeg",
+        "autor": "Diego Ribon",
     },
     "Prácticas Profesionales III": {
-        "imagen": "",
-        "autor": ""
+        "imagen": "trabajo_especial_de_titulacion.jpeg",
+        "autor": "Diego Ribon"
     },
-    */
 };
